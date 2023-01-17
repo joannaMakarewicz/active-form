@@ -7,10 +7,10 @@ const pomegranate = '#c0392b';
 const clouds = '#ecf0f1';
 const silver = '#bdc3c7';
 
-function App() {
+function App(element) {
   return (
     <div>
-      <Button label="Click me" bgColor={pomegranate} color={clouds} />
+      <Button icon='user'  label="Click me" bgColor={alizarin} color={clouds} />
     </div>
   );
 }
