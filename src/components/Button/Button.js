@@ -11,14 +11,13 @@ function Button({ label, bgColor, color }) {
       border: 0,
       borderRadius:6,
       color: color,
-      fontSize: 24,
-      margin: 50,
-      marginLeft: 5,
+      fontSize: 20,
+      margin: 16,
       padding:16
     }
     return (
-      <div>
-         <FontAwesomeIcon icon="user" size="lg" />
+      <div className="button">
+         <FontAwesomeIcon icon="user" size="xs" />
         <button style={styles}>{label}</button>
       </div>
     );
