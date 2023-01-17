@@ -1,0 +1,73 @@
+#root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 60vw;
+}
+
+.App {
+  text-align: center;
+}
+
+.button {
+  align-items: center;
+  display: flex;
+  justify-content:space-between;
+  margin: 16px 0 0 0;
+  &__brand {
+    color:rgb(97, 183, 217);
+    margin:16px;
+  }
+}
+
+.form {
+  background-color: #e9edc9;
+  min-width: 70vw;
+  padding: 26px;
+  @media screen and (min-width: 1024px) {
+    min-width: 40vw;
+  }
+  }
+
+.header {
+    text-align: center;
+    &__heading {
+      background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(97, 183, 217) 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%);
+      background-clip: text; 
+      line-height: 1;
+      margin:0 0 16px 0;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    &__content  {
+      margin:0;
+    }
+}
+.input {
+  margin: 16px 0;
+  &__area {
+    border:0;
+    outline: 0;
+    margin-top: 6px;
+    padding:6px;
+    width: 100%;
+  }
+  &__name {
+    font-size: 18px;
+  }
+}
+
+
+
+.textarea {
+  border:0;
+  min-height: 100px;
+  outline: 0;
+  padding: 6px;
+  width: 100%;
+}
+

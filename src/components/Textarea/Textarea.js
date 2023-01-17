@@ -3,7 +3,7 @@ import React from "react";
 function Textarea () {
     return (
         <div>
-            <textarea className="textarea">Wpisz swoją opinię</textarea>
+            <textarea className="textarea" placeholder="Wpisz swoje oczekiwania dot. szkolenia"></textarea>
         </div>
     )
 }
