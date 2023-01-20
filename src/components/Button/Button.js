@@ -7,6 +7,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fab, faUser);
 
 function Button({ label, bgColor, color }) {
+  
   const styles = {
     background: bgColor,
     border: 0,
@@ -16,12 +17,13 @@ function Button({ label, bgColor, color }) {
     margin: 16,
     padding: 16,
   };
+  const clickEvent = () => console.log('Udało się');
   return (
     <div className="button">
-      <FontAwesomeIcon icon={["fab", "react"]} className="button__brand" size="3x" />
+      <FontAwesomeIcon icon={["fab", "react"]} className="button__brand" size="2x" />
       <div>
         <FontAwesomeIcon icon="user" size="xs" />
-        <button style={styles}>{label}</button>
+        <input type="submit" style={styles} onClick={clickEvent} value={label}/>
       </div>
     </div>
   );
