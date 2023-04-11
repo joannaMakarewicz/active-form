@@ -4,7 +4,7 @@ import Form from "../components/Form";
 
 function Home () {
     return (
-        <main className="form">
+        <main className="main">
         <Header />
         <Form />
       </main>
